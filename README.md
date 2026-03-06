@@ -891,8 +891,10 @@ A growing set of community-developed and maintained servers demonstrates various
 - **[GraphQL Schema](https://github.com/hannesj/mcp-graphql-schema)** - Allow LLMs to explore large GraphQL schemas without bloating the context.
 - **[Graylog](https://github.com/Pranavj17/mcp-server-graylog)** - Search Graylog logs by absolute/relative timestamps, filter by streams, and debug production issues directly from Claude Desktop.
 - **[Grok-MCP](https://github.com/merterbak/Grok-MCP)** - MCP server for xAI’s API featuring the latest Grok models, image analysis & generation, and web search.
+- **[mcp-grounding-enforcer](https://github.com/steveswain14/mcp-grounding-enforcer)** - Verifies model output is grounded in retrieved sources, flagging unverifiable claims, statistics, quotes, and fabricated citations.
 - **[gx-mcp-server](https://github.com/davidf9999/gx-mcp-server)** - Expose Great Expectations data validation and quality checks as MCP tools for AI agents.
 - **[HackMD](https://github.com/yuna0x0/hackmd-mcp)** (by yuna0x0) - An MCP server for HackMD, a collaborative markdown editor. It allows users to create, read, and update documents in HackMD using the Model Context Protocol.
+- **[mcp-hallucination-suite](https://github.com/steveswain14/mcp-hallucination-suite)** - Structural anti-hallucination middleware suite: validates prompts, tool responses, JSON outputs, and source grounding in AI agent pipelines.
 - **[HAProxy](https://github.com/tuannvm/haproxy-mcp-server)** - A Model Context Protocol (MCP) server for HAProxy implemented in Go, leveraging HAProxy Runtime API.
 - **[Hashing MCP Server](https://github.com/kanad13/MCP-Server-for-Hashing)** - MCP Server with cryptographic hashing functions e.g. SHA256, MD5, etc.
 - **[HDW LinkedIn](https://github.com/horizondatawave/hdw-mcp-server)** - Access to profile data and management of user account with [HorizonDataWave.ai](https://horizondatawave.ai/).
@@ -944,6 +946,7 @@ A growing set of community-developed and maintained servers demonstrates various
 - **[JSON](https://github.com/GongRzhe/JSON-MCP-Server)** - JSON handling and processing server with advanced query capabilities using JSONPath syntax and support for array, string, numeric, and date operations.
 - **[JSON](https://github.com/kehvinbehvin/json-mcp-filter)** - JSON schema generation and filtering server with TypeScript type creation optimised for retrieving relevant context JSON data using quicktype-core and support for shape-based data extraction, nested object filtering, and array processing operations.
 - **[JSON to Excel by WTSolutions](https://github.com/he-yang/json-to-excel-mcp)** - Converting JSON into CSV format string from (1) JSON data, (2) URLs pointing to publiclly available .json files.
+- **[mcp-json-suppressor](https://github.com/steveswain14/mcp-json-suppressor)** - Validates and cleans structured JSON data against a schema, removing invented fields and coercing bad types.
 - **[JSON2Video MCP](https://github.com/omergocmen/json2video-mcp-server)** - A Model Context Protocol (MCP) server implementation for programmatically generating videos using the json2video API. This server exposes powerful video generation and status-checking tools for use with LLMs, agents, or any MCP-compatible client.
 - **[jupiter-mcp](https://github.com/kukapay/jupiter-mcp)** - An MCP server for executing token swaps on the Solana blockchain using Jupiter's new Ultra API.
 - **[Jupyter MCP Server](https://github.com/datalayer/jupyter-mcp-server)** – Real-time interaction with Jupyter Notebooks, allowing AI to edit, document and execute code for data analysis, visualization etc. Compatible with any Jupyter deployment (local, JupyterHub, ...).
@@ -1226,6 +1229,7 @@ search, and comprehensive file analysis.
 - **[Prometheus](https://github.com/pab1it0/prometheus-mcp-server)** - Query and analyze Prometheus - open-source monitoring system.
 - **[Prometheus (Golang)](https://github.com/tjhop/prometheus-mcp-server/)** - A Prometheus MCP server with full API support for comprehensive management and deep interaction with Prometheus beyond basic query support. Written in go, it is a single binary install that is capable of STDIO, SSE, and HTTP transports for complex deployments. 
 - **[Prometheus (TypeScript)](https://github.com/yanmxa/prometheus-mcp-server)** - Enable AI assistants to query Prometheus using natural language with TypeScript implementation.
+- **[mcp-prompt-suppressor](https://github.com/steveswain14/mcp-prompt-suppressor)** - Enforces clean prompt structure, strips model-invented instructions, and detects capability hallucinations.
 - **[PubChem](https://github.com/sssjiang/pubchem_mcp_server)** - extract drug information from pubchem API.
 - **[PubMed](https://github.com/JackKuo666/PubMed-MCP-Server)** - Enable AI assistants to search, access, and analyze PubMed articles through a simple MCP interface.
 - **[Pulumi](https://github.com/dogukanakkaya/pulumi-mcp-server)** - MCP Server to Interact with Pulumi API, creates and lists Stacks
@@ -1374,6 +1378,7 @@ search, and comprehensive file analysis.
 - **[token-minter-mcp](https://github.com/kukapay/token-minter-mcp)** - An MCP server providing tools for AI agents to mint ERC-20 tokens across multiple blockchains.
 - **[token-revoke-mcp](https://github.com/kukapay/token-revoke-mcp)** - An MCP server for checking and revoking ERC-20 token allowances across multiple blockchains.
 - **[Ton Blockchain MCP](https://github.com/devonmojito/ton-blockchain-mcp)** - An MCP server for interacting with Ton Blockchain.
+- **[mcp-tool-response-suppressor](https://github.com/steveswain14/mcp-tool-response-suppressor)** - Verifies that what an agent claims a tool returned matches what the tool actually returned.
 - **[Topolograph MCP](https://github.com/Vadims06/topolograph-mcp-server)** – A MCP server that enables LLMs to interact with OSPF and IS - IS protocols and analyze network topologies, query network events, and perform path calculations for OSPF and IS-IS protocols.
 - **[TouchDesigner](https://github.com/8beeeaaat/touchdesigner-mcp)** - An MCP server for TouchDesigner, enabling interaction with TouchDesigner projects, nodes, and parameters.
 - **[Transcribe](https://github.com/transcribe-app/mcp-transcribe)** - An MCP server provides fast and reliable transcriptions for audio/video files and voice memos. It allows LLMs to interact with the text content of audio/video file.
